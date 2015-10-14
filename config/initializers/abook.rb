@@ -1,0 +1,1 @@
+FACEBOOK_CONFIG = YML.load_file("#{::Rails.root}/config/facebook.yml")[::Rails.env]
